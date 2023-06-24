@@ -10,5 +10,6 @@ public class Test {
 		D miD = new D (7,8,9);
 		
 		miC.metodoA();
+		miD.metodoA();
 	}
 }

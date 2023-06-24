@@ -8,7 +8,8 @@ public class B extends A{
 		this.atributoB = atributoB;
 	}
 	
-	public void metodoB() {
+	public int metodoB() {
 		System.out.println("método B");
+		return atributoB;
 	}
 }

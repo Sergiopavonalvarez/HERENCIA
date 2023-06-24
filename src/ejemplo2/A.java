@@ -7,7 +7,8 @@ public class A {
 		this.atributoA = atributoA;
 	}
 
-	public void metodoA() {
+	public int  metodoA() {
 		System.out.println("método A");
+		return atributoA;
 	}
 }

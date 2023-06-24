@@ -7,5 +7,8 @@ public class Test {
 		B miB = new B (2,3);
 		C miC = new C (4,5,6);
 		D miD = new D (7,8,9);
+		
+		
+		System.out.println(miD.metodoD());
 	}
 }

@@ -11,6 +11,7 @@ public class Test {
 		
 		miC.metodoA();
 		miC.metodoPorDefecto();
+		miD.metodoA();
 		System.out.println(miD);
 	}
 }

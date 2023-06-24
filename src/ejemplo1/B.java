@@ -1,9 +1,11 @@
 package ejemplo1;
 
 public class B extends A{
-	private int atributoB;
+	private int atributoB=2;
 	
-	public void metodoB() {
+	public int metodoB() {
 		System.out.println("método B");
+		return atributoB;
+		
 	}
 }
